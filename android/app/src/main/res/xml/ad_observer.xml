@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Only these feed apps are observed: the system does not send us events from any other app. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowContentChanged|typeViewScrolled|typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="true"
+    android:isAccessibilityTool="false"
+    android:notificationTimeout="500"
+    android:packageNames="com.instagram.android,com.facebook.katana,com.google.android.youtube,com.linkedin.android,com.twitter.android,com.zhiliaoapp.musically"
+    android:description="@string/ad_observer_description" />

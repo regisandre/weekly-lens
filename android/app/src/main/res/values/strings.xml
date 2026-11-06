@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad_observer_label">Weekly Lens: ads seen</string>
+    <string name="ad_observer_description">Optional. Counts the ads you see in Instagram, Facebook, YouTube, LinkedIn, X and TikTok by spotting their "Sponsored" label. Only the advertiser name and the time are kept, on this phone. No other screen content is stored or sent anywhere. Turn it off here at any time.</string>
+    <string name="notification_listener_label">Weekly Lens: notifications and media</string>
+</resources>
